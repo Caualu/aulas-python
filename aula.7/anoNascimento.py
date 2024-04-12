@@ -1,10 +1,11 @@
 data = int(input("diga o ano do nascimento:"))
 anoAtual = int(input("digite o ano atual:"))
-ano = anoAtual - 1
-if data  < 2010 or anoAtual >= 2024:
+idade = anoAtual - data
 
- for anos in range (data,anoAtual-1):
-   print(f"{data} voce tinha {anos} anos ")
+    
+for nascimento in range (data,anoAtual + 1):
+   idade = nascimento - data
+   print(f"{nascimento} voce tinha {idade} anos ")
 
 
 
