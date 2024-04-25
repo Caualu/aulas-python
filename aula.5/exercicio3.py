@@ -13,7 +13,7 @@ elif categoria == 2:
 elif categoria == 3:
     print(f"voce adquiriu o tapeteMaxPremiun\n totalApagar {tapeteMaxPremiun}")
 else:
-    print("acesso invalido")
+    print("dados invalidos")
 
 
 

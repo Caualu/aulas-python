@@ -38,7 +38,7 @@ while True:
 
 
     print(f"Preparando seu {latte}... Por favor, aguarde.")
-    for i in range(tempo, 0, -1):
+    for i in range (time, 0, -1):
       print(f"{i} segundos restantes...")
       time.sleep(1)
        
