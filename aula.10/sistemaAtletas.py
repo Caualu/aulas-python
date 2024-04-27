@@ -1,7 +1,7 @@
 sta_atletas = []
 numero_atletas = 1
 print("Por favor, insira a distância dos lançamentos:")
-for i in range(10):
+for i in range(4):
     distancia = float(input(f"O atleta {i + 1} fez o lançamento a qual distância?: "))
     numero_atletas.append(distancia)
 
