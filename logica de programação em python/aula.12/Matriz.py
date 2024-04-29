@@ -22,12 +22,3 @@ for linha in armario:
          print(linha)
 
 
-armario = [["vazio"] * 9 for linha in range (9)]
-
-
-remover = int(input("digite a linha{linha} que vc deseja reitirar: "))
-remover1 = int(input("digite a coluna{coluna} que vc deseja retirar:"))
-if remover.lower(): 
-       
-        armario[linha][coluna]= item
-        print (f"item '{item}' tirado da posição ({linha} , {coluna}).")
